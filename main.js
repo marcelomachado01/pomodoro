@@ -88,7 +88,7 @@ function applyTheme(themeName) {
 }
 
 function loadTheme() {
-    const savedTheme = localStorage.getItem('theme') || 'tema-claro';
+    const savedTheme = localStorage.getItem('theme') || 'tema-hacker';
     applyTheme(savedTheme);
 }
 
