@@ -14,7 +14,7 @@ Um app Pomodoro completo, feito com **HTML, CSS e JavaScript puro**, com foco em
 
 ## 🖼️ Preview
 
-![screenshot do app](screenshot.png) <!-- Adicione uma screenshot se quiser -->
+![screenshot do app](captura-de-tela.png) <!-- Adicione uma screenshot se quiser -->
 
 ## 🚀 Tecnologias usadas
 
