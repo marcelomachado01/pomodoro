@@ -1,18 +1,18 @@
 
-.tema-claro {
-    --bg: #f2f2f2;
-    --text: #222;
-    --card: #fff;
-    --button-bg: #4CAF50;
-    --button-hover: #388E3C;
-}
-
 .tema-hacker {
     --bg: #000000;
     --text: #00ff00;
     --card: #001100;
     --button-bg: #00ff00;
     --button-hover: #00cc00;
+}
+
+.tema-claro {
+    --bg: #f2f2f2;
+    --text: #222;
+    --card: #fff;
+    --button-bg: #4CAF50;
+    --button-hover: #388E3C;
 }
 
 .tema-azul {
