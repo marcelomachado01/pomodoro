@@ -65,9 +65,9 @@ function resetTimer() {
     timeLeft = (currentMode === 'focus' ? focusTime : breakTime) * 60;
     updateDisplay();
     saveProgress();
-}
+    }
 
-function applyCustomTime() {
+    function applyCustomTime() {
     const focus = parseInt(customFocusInput.value);
     const brk = parseInt(customBreakInput.value);
     if (!isNaN(focus) && focus > 0) {
