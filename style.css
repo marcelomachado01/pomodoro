@@ -1,0 +1,100 @@
+
+.tema-claro {
+    --bg: #f2f2f2;
+    --text: #222;
+    --card: #fff;
+    --button-bg: #4CAF50;
+    --button-hover: #388E3C;
+}
+
+.tema-hacker {
+    --bg: #000000;
+    --text: #00ff00;
+    --card: #001100;
+    --button-bg: #00ff00;
+    --button-hover: #00cc00;
+}
+
+.tema-azul {
+    --bg: #001f3f;
+    --text: #ffffff;
+    --card: #003366;
+    --button-bg: #007BFF;
+    --button-hover: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000044;
+}
+
+.timer {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.edit-time {
+    margin: 1rem 0;
+}
+
+.edit-time input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 80px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+}
+
+.edit-time button,
+.buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 0.5rem;
+}
+
+.edit-time button:hover,
+.buttons button:hover {
+    background: var(--button-hover);
+}
+
+select#themeSelector {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--button-bg);
+    color: white;
+}
+
+.cycle-info {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.chart-container {
+    margin-top: 2rem;
+}
