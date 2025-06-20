@@ -33,13 +33,3 @@ Um app Pomodoro completo, feito com **HTML, CSS e JavaScript puro**, com foco em
 5. Ao final de cada ciclo de foco, um alarme toca e o ciclo é registrado no gráfico.
 6. Tudo fica salvo no `localStorage` – mesmo ao fechar o navegador!
 
-## 📦 Como rodar o projeto
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/pomodoro-timer.git
-
-# Acesse a pasta
-cd pomodoro-timer
-
-# Abra o arquivo index.html no navegador
