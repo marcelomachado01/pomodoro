@@ -1,6 +1,6 @@
 
 .tema-hacker {
-    --bg: #000000;
+    --bg: #011a09;
     --text: #00ff00;
     --card: #001100;
     --button-bg: #00ff00;
@@ -40,7 +40,7 @@ body {
     background: var(--card);
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px #00000044;
+    box-shadow: 0 0 10px #000000dc;
 }
 
 .timer {
