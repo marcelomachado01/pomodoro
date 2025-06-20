@@ -67,7 +67,7 @@ body {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     background: var(--button-bg);
-    color: white;
+    color: black;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -87,7 +87,7 @@ select#themeSelector {
     border-radius: 8px;
     border: none;
     background: var(--button-bg);
-    color: white;
+    color: black;
 }
 
 .cycle-info {
